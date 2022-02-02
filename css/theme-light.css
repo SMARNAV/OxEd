@@ -58,16 +58,23 @@ body[theme="light"] .mdc-radio .mdc-radio__native-control:enabled:not(:checked)+
   opacity: 0.54;
 }
 
+/* CSS HEX */
+--feldgrau: #627264ff; /*main*/
+--sunglow: #ffcc00ff; /*secondary*/
+--yellow-crayola: #ffe785ff; /*tertiary*/
+--platinum: #e3e3e3ff; /*link/comment*/
+--cornsilk: #fff8deff; /*background*/
+
 .cm-s-light .cm-keyword {color: #708;}
 .cm-s-light .cm-atom {color: #219;}
 .cm-s-light .cm-number {color: #164;}
 .cm-s-light .cm-def {color: #00f;}
-.cm-s-light .cm-variable {color: black;}
+.cm-s-light .cm-variable {color: var(--feldgrau);}
 .cm-s-light .cm-variable-2 {color: #05a;}
 .cm-s-light .cm-variable-3 {color: #085;}
-.cm-s-light .cm-property {color: black;}
-.cm-s-light .cm-operator {color: black;}
-.cm-s-light .cm-comment {color: #a50;}
+.cm-s-light .cm-property {color: var(--feldgrau);}
+.cm-s-light .cm-operator {color: var(--feldgrau);}
+.cm-s-light .cm-comment {color: var(--platinum);}
 .cm-s-light .cm-string {color: #a11;}
 .cm-s-light .cm-string-2 {color: #f50;}
 .cm-s-light .cm-meta {color: #555;}
@@ -80,7 +87,7 @@ body[theme="light"] .mdc-radio .mdc-radio__native-control:enabled:not(:checked)+
 .cm-s-light .cm-header {color: blue;}
 .cm-s-light .cm-quote {color: #090;}
 .cm-s-light .cm-hr {color: #999;}
-.cm-s-light .cm-link {color: #00c;}
+.cm-s-light .cm-link {color: var(--platinum);}
 
 body[theme="light"] div.CodeMirror span.CodeMirror-matchingbracket {
   color: inherit !important;
