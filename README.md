@@ -10,6 +10,7 @@ This is basically a clone of Text with style changes and the addition of a frien
 <ul>
     <pre>
         <li>0.1 - first release. <b>this one</b></li>
+        <li>0   - chrome text (its a start)</li>
     </pre>
 </ul>
 <p>
